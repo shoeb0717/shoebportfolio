@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>New Website</title>
+    <link rel="stylesheet" href="deckstays.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    <script src="https://kit.fontawesome.com/bb51a9ebeb.js" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/bb51a9ebeb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+
+            <a href="deckstays.html"><img src="images/rooms.jpg"></a>
+
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="deckstays.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="blog.html">OUR PROGRESS</a></li>
+                    <li><a href="courses.html">FACILITIES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+
+                </ul>
+
+            </div>
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <!--------about Us------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We provides World's best Hostels</h1>
+                <!--<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>-->
+
+                <a href="deckstays.html" class="hero-btn red-btn">EXPLORE NOW</a>
+
+            </div>
+            <div class="about-col">
+                <img src="images/project1.png">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!--------Footer---------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Our hostel features a large room with separate beds and attached bathroom, and a communal kitchen, Gym,<br> Laundery Service at Affordable price for student with excellent amenities</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made by <i class=""></i>Shoeb Ahmad Khan</p>
+    </section>
+
+
+
+    <!-------JavaScript for Toggle Menu------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
